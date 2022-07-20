@@ -58,6 +58,10 @@ p{
 .banner-text{
     position: relative;
     bottom: 35px;
+    animation: slidInFormLeft 1s ease;
+}
+.banner-img{
+    animation: slidInFormRight 1s ease;
 }
 .banner .container .grid{
     overflow: hidden;
