@@ -1,6 +1,4 @@
 
-
-
 /* Medium Devices */
 @media (min-width: 768px) and (max-width: 1024px){
     /* Banner Start */
@@ -9,17 +7,17 @@
         gap: 2%;
     }
     .banner-info {
-        padding: 70px 0 0 70px;
-    }
-    .banner-text h1 {
-        font-size: 42px;
+        padding: 70px 5px 0 70px;
     }
     .banner-text p {
         font-weight: 300;
-        font-size: .9em;
+        font-size: .9375em;
     }
     /* Banner End */
     /* Blog Start */
+    .main-blog {
+        margin: 70px 0;
+    }
     .main-blog .flex{
         flex-direction: column;
     }
@@ -31,7 +29,7 @@
     }
     .contents ul{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
     }
     .contents {
@@ -39,15 +37,12 @@
     }
     .contents ul li{
         width: 200px;
+        margin: 0 15px;
     }
     .contents ul li a {
         background-color: #fff;
-        padding: 16px 10px;
-        font-size: 20px;
         border: 1px solid #E8E8E8;
-    }
-    .contents ul li {
-        margin: 10px 0;
+        width: 100%;
     }
     .view-btn{
         margin-top: 50px;
@@ -57,24 +52,18 @@
 /* Small Devices */
 @media (min-width: 576px) and (max-width: 767px) {
     /* Banner Start */
-    .banner .grid{
+    .banner .container .grid{
         grid-template-columns: repeat(1, 1fr);
         row-gap: 20px;
         justify-content: center;
     }
     .banner-info {
-        padding: 70px 60px 0; 
+        padding: 75px 90px 0;
         text-align: center;
-    }
-    .banner-text h1 {
-        font-size: 35px;
     }
     .banner-text p {
         font-weight: 300;
-        font-size: .9em;
-    }
-    .banner-img img{
-        width: 90%;
+        font-size: .875em;
     }
     /* Blog Start */
     .main-blog .flex{
@@ -88,15 +77,10 @@
     }
     .contents {
         background-color: transparent;
-        text-align: center;
-        padding: 8px 30px;
-        border-radius: 10px;
     }
     .contents ul li a {
-        width: 50%;
+        width: 60%;
         background-color: #fff;
-        padding: 16px 10px;
-        font-size: 20px;
         border: 1px solid #E8E8E8;
     }
     .contents ul li a:hover{
@@ -135,7 +119,7 @@
 /* ? Mobile */
 @media all and (max-width: 575px){
     /* Banner Start */
-    .banner .grid{
+    .banner .container .grid{
         grid-template-columns: repeat(1, 1fr);
         row-gap: 0;
         justify-content: center;
@@ -147,12 +131,12 @@
     .extra-text{
         display: none;
     }
-    .banner-text h1 {
-        font-size: 27px;
-    }
     .banner-text p {
         font-weight: 300;
-        font-size: .9em;
+        font-size: .875em;
+    }
+    .banner-btn{
+        padding: .6em 1em;
     }
     /* Banner End */
 
@@ -168,16 +152,12 @@
     }
     .contents {
         background-color: transparent;
-        text-align: center;
-        padding: 8px 30px;
-        border-radius: 10px;
     }
     .contents ul li a {
-        width: 70%;
+        width: 80%;
         background-color: #fff;
-        padding: 16px 10px;
-        font-size: 20px;
         border: 1px solid #E8E8E8;
+        padding: .6em 0;
     }
     .contents ul li a:hover{
         border: 1px solid transparent;

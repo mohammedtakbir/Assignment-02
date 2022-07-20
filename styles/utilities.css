@@ -1,3 +1,4 @@
+/* ?---------- Utilities ------------*/
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -14,8 +15,8 @@
 }
 .btn{
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 20px;
+    font-size: 1.25em;
+    padding: .625em 1.25em;
     background-color: var(--btn-bg);
     color: var(--text-white);
     border-radius: 5px;
