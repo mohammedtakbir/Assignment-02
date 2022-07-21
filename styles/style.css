@@ -1,6 +1,10 @@
 /* google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+::selection{
+    background-color: var(--btn-bg);
+    color: var(--text-white);
+}
 :root {
     --banner-bg: #161616;
     --bg-color: #161616;
@@ -283,9 +287,11 @@ p {
 .footer-content li a {
     color: #B9B9B9;
 }
-
 .footer-content li a:hover {
     border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.footer-content li a:active {
     color: #fff;
 }
 
@@ -307,7 +313,6 @@ p {
     margin: 10px;
     font-size: 1.7em;
 }
-
 .social a:hover {
     color: #fff;
     transform: scale(1.1);
