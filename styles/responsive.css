@@ -48,6 +48,10 @@
         margin-top: 50px;
         display: block;
     }
+    /* Footer Part */
+    .footer {
+        padding: 80px 0;
+    }
 }
 /* Small Devices */
 @media (min-width: 576px) and (max-width: 767px) {
@@ -91,6 +95,13 @@
     }
     .contents ul li {
         margin: 10px 0;
+    }
+    /* Footer Part */
+    .footer {
+        padding: 50px 0;
+    }
+    .copyright {
+        margin-top: 30px;
     }
 }
 
@@ -180,5 +191,11 @@
     /* Footer Start */
     .footer-content{
         flex-direction: column;
+    }
+    .footer {
+        padding: 30px 0;
+    }
+    .copyright {
+        margin-top: 25px;
     }
 }
