@@ -143,6 +143,9 @@
     .banner-btn{
         padding: .5em .75em;
     }
+    .banner-span{
+        display: none;
+    }
     /* Banner End */
 
     /* Blog Start */
