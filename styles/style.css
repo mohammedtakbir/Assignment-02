@@ -61,7 +61,7 @@ p {
     background-color: var(--banner-bg);
     color: var(--text-white);
     border-radius: 30px;
-    padding: 40px 40px 0 80px;
+    padding: 40px 40px 0 60px;
     position: relative;
 }
 
@@ -156,12 +156,10 @@ p {
     font-size: 1.2em;
     transition: background-color .2s ease, color .2s ease;
 }
-
 .contents ul li a:hover {
     background-color: var(--btn-bg);
     color: #fff;
 }
-
 .contents ul li.active a {
     background-color: var(--btn-bg);
     color: #fff;
