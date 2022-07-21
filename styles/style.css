@@ -293,6 +293,7 @@ p {
 }
 .footer-content li a:active {
     color: #fff;
+    border-bottom: none;
 }
 
 .social {
