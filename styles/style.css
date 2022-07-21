@@ -149,11 +149,11 @@ p {
     color: var(--text-color);
     background-color: #fff;
     padding: 1em .625em;
-    width: 100%;
     border-radius: 8px;
     font-weight: 500;
     font-size: 1.2em;
     transition: background-color .2s ease, color .2s ease;
+    width: 100%;
 }
 .contents ul li a:hover {
     background-color: var(--btn-bg);
